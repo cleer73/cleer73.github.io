@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - Cleer73
+title: Home
 ---
 # Hello World
 
