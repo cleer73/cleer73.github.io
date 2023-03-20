@@ -1,113 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }} - cleer73</title>
     <link rel="stylesheet" href="/css/default.css">
-  </head>
-  <body>
+</head>
 
+<body>
     <div class="container">
-
-      <div class="row">
-        <div class="col-2">
-          <div class="card">
-            <img src="/assets/img/me.jpg" class="card-img-top" alt="Jake Lee">
-            <div class="card-body">
-              <h5 class="card-title">Jake Lee</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Jacob Weston Lee</h6>
-            </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-            </div>
-        </div>
-
-        <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand" href="/">cleer73</a>
-
-            <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/portfolio"
-                    id="portfolioDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">Portfolio</a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="portfolioDropdown">
-                    <li><a class="dropdown-item" href="#">Bookstore</a></li>
-                    <li><a class="dropdown-item" href="#">Eagle</a></li>
-                    <li><a class="dropdown-item" href="#">Application for Admissions</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/projects"
-                    id="projectsDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">Projects</a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="projectsDropdown">
-                    <li><span class="dropdown-item-text texted-muted fw-bold">Interface</span></li>
-                    <li><a class="dropdown-item" href="#">Ferries</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><span class="dropdown-item-text texted-muted fw-bold">API</span></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-
-          </div>
-        </nav>
-
         <div class="row">
-          <div class="col">
-            <h1>{{ page.title }}</h1>
-            <section>
-              {{ content }}
-            </section>
-          </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="/assets/img/me.jpg" class="card-img-top" alt="Jake Lee">
+                    <div class="card-body">
+                        <h5 class="card-title">Jake Lee</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Jacob Weston Lee</h6>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="/">cleer73</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="/">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/portfolio" id="portfolioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="portfolioDropdown">
+                                        <li><a class="dropdown-item" href="#">Bookstore</a></li>
+                                        <li><a class="dropdown-item" href="#">Eagle</a></li>
+                                        <li><a class="dropdown-item" href="#">Application for Admissions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/projects" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="projectsDropdown">
+                                        <li><span class="dropdown-item-text texted-muted fw-bold">Interface</span></li>
+                                        <li><a class="dropdown-item" href="#">Ferries</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><span class="dropdown-item-text texted-muted fw-bold">API</span></li>
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row">
+                    <div class="col">
+                        <h1>{{ page.title }}</h1>
+                        <section>
+                            {{ content }}
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <footer>
-            &copy; to me
-          </footer>
+        <div class="row">
+            <div class="col">
+                <footer>
+                    &copy; to me
+                </footer>
+            </div>
         </div>
-      </div>
-
     </div>
-
     <script src="/assets/js/bootstrap/dom/data.js"></script>
     <script src="/assets/js/bootstrap/dom/event-handler.js"></script>
     <script src="/assets/js/bootstrap/dom/manipulator.js"></script>
     <script src="/assets/js/bootstrap/dom/selector-engine.js"></script>
-
     <script src="/assets/js/bootstrap/base-component.js"></script>
-
     <script src="/assets/js/bootstrap/dropdown.js"></script>
     <script src="/assets/js/bootstrap/collapse.js"></script>
+</body>
 
-  </body>
 </html>
